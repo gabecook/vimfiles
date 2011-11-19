@@ -1,0 +1,2 @@
+set runtimepath+=$HOME\vimfiles
+source $HOME\vimrc
