@@ -34,7 +34,8 @@ if has("gui_running")
 
 	" A nice, big font to keep my eyes healthy
 	if has("win32")
-		set guifont=Lucida_Console:h10:cANSI
+		" set guifont=Lucida_Console:h10:cANSI
+		set guifont=Consolas:h11:cDEFAULT
 	else " i.e. Mac
 		set guifont=DejaVu\ Sans\ Mono:h18
 
