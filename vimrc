@@ -1,3 +1,5 @@
+map <F2> :NERDTreeToggle<CR>
+
 "" Sean's custom options
 
 if has("win32")
