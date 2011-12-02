@@ -1,3 +1,5 @@
+let g:ruby_path=$RUBY_BIN
+
 map <F2> :NERDTreeToggle<CR>
 
 "" Sean's custom options
@@ -136,7 +138,7 @@ set wildmode=list:longest
 " set autowriteall
 
 " Use rake to compile programs, instead of the default make
-set makeprg=rake
+"set makeprg=rake
 
 " Functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
